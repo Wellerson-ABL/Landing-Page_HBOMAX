@@ -36,6 +36,8 @@ Exemplo de meta tags usadas em cada página:
 - Textos alternativos em imagens (alt)
 - Navegação via teclado testada
 - Atributos `aria-label` e `aria-hidden` para descrever funções específicas
+
+Exemplo de aria:
 ```
 <p class="footer_text" aria-hidden="true">
 <form id="form_container" aria-label=". Acesse sua conta em 3 Passos.">
@@ -44,5 +46,5 @@ Exemplo de meta tags usadas em cada página:
 🚀 Como Visualizar?
 Clone este repositório e abra o arquivo index.html no seu navegador:
 
-Fazendo uma Fork Github ou 
+Fazendo uma Fork no Github ou 
 git clone https://github.com/Wellerson-ABL/Landing-Page_HBOMAX.git
