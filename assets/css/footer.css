@@ -1,0 +1,26 @@
+
+/*FOOTER*/
+.footer_container, .footer_social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_links, .footer_social_link{
+  color: var(--footer-links-social);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 50px 10px 15px 10px;
+}
+.footer_text_container {
+  text-align: center;
+}
+.footer_text{  
+  color: var(--footer-links-social);
+  font-size: 0.7rem;
+  font-weight: normal;
+}
+.footer_social_link {
+  padding: 50px 25px 25px;
+}
+

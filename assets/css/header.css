@@ -1,0 +1,229 @@
+/*  PAGE INDEX */
+/*  PAGE INDEX */
+
+
+body { 
+    position: relative;
+    margin-top: 0px;
+    padding: 00px 0 100px;
+    background: linear-gradient(125deg, #461d49 20%, #0f0f10 50%, #282065);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite alternate;
+}
+
+/* 
+.header__container::after {
+    border: 1px solid red;
+    content: "";
+    width: 0%;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(0deg, var(--one-color), transparent);
+} */
+
+.header__channel {
+    background-color: var(--one-color);
+}
+
+.header__channels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 100px 0 20px 0;
+}
+
+.header_h1 {
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--four-color);
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.header_span_h1 {
+    font-size: 2rem;
+    font-weight: lighter;
+    display: block;
+}
+
+.header_barra {
+    display: block;
+    margin: 0 100px 0 100px;
+    padding: 2px;
+    background: var(--barra-gradient);
+    border-radius: 20px;
+}
+
+/* OFERTAS: */
+header {
+    text-align: center;
+}
+
+.header_oferta_container {
+    color: var(--four-color);
+    padding: 30px 0px;
+}
+
+.header_oferta_h3 {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.header_oferta_price {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    padding: 10px 10px;
+    padding-bottom: 50px;
+    color: var(--three-color);
+}
+
+.header_oferta_price_span {
+    font-size: 1rem;
+    font-weight: lighter;
+    padding-left: 10px;
+}
+
+.header_oferta_btn {
+    color: var(--four-color);
+    background: var(--btn-gradient);
+    padding: 14px 50px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
+    letter-spacing: 2.5px;
+    border: none;
+    cursor: pointer;
+
+    outline: 3px solid transparent;
+    transition: background 2s, outline 1s, transform 1s;
+    background-size: 250% 400%;
+
+    animation: wiggle 2.5s linear infinite;
+    /*animation*/
+}
+
+.header_oferta_btn:hover {
+    background-color: transparent;
+    background-position: 100%;
+    outline: 1px solid var(--two-color);
+    transform: scale(1.15);
+}
+
+.header_oferta_text {
+    padding: 50px;
+}
+
+.header_oferta_text_span {
+    display: block;
+}
+
+/*  Final INDEX */
+
+
+
+
+
+/*  PAGE LOGIN */
+/*  PAGE LOGIN */
+
+#header_login {
+    max-width: 800%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    margin-top: 0px;
+    padding: 6.25rem 0 6.25rem;
+    background-image: url("/assets/images/background-movies-series.png");
+    background-size: cover;
+    height: 80vh;
+}
+
+.login_container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    color: white;
+    width: 46.875rem; /* 750px */
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(132, 21, 216, 0.1);
+    padding: 20px 0;
+}
+
+.login_container h2 {
+    padding: 25px 0;
+}
+
+#login_titulo {
+    display: flex;
+    width: 46.25rem; /* 740px */
+    align-items: flex-start;
+    padding: 20px 0;
+}
+
+#form_container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.login_text {
+    font-size: large;
+    padding: 20px;
+    color: white;
+    width: 46.25rem; /* 740px */
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(15, 15, 16, 0.4);
+    border: 1px solid rgb(210, 209, 209);
+}
+
+/* login_button */
+.login_btn_container {
+    display: flex;
+    width: 700px;
+    padding: 40px 10px;
+    gap: 30px;
+}
+
+.login_btn {
+    font-size: 0.8rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 40px;
+    background: var(--btn-gradient);
+
+    outline: 3px solid transparent;
+    transition: background 2s, outline 1s, transform 1s;
+    background-size: 250% 400%;
+}
+
+.login_btn:hover {
+    background-color: transparent;
+    background-position: 100%;
+    outline: 1px solid var(--two-color);
+    transform: scale(1.05);
+}
+
+#login_btn__esqueceu{
+    background: transparent;
+    opacity: 50%;
+}

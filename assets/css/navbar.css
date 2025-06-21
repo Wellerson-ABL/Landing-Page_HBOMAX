@@ -1,0 +1,60 @@
+.nav_container {
+    display: flex;
+    background-color: var(--nav-bg-color);
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    padding: 1rem;
+
+}
+
+.nav_bnt_container {
+    display: block;
+    justify-content: right;
+    text-decoration: none;
+}
+
+.nav_bnt_entrar {
+    color: var(--four-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-right: 15px;
+    font-weight: bold;
+    font-size: 0.75rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+
+}
+
+.nav_bnt_assine {
+    padding: 8px 24px;
+    background-color: var(--three-color);
+    color: var(--four-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 1s, color 1s;
+
+}
+
+.nav_bnt_assine:hover {
+    background-color: var(--four-color);
+    color: var(--one-color);
+
+}
+
+.nav_logo {
+    max-width: 160px;
+
+}
+
+.nav_logo2 {
+    width: 100%;
+}

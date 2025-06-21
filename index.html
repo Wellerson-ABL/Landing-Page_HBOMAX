@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="3;url='./assets/pages/home.html'">
+    <meta name="googlebot" content="noindex, follow" />
+    <title>HBOMAX Entrada</title>
+</head>
+
+<body aria-hidden="true">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(120deg, #390e87ff 30%, rgb(42, 11, 100) 100%, transparent 50%);
+            position: relative;
+            background-size: 400% 400%;
+            animation: gradient_capa 5s infinite alternate;
+        }
+
+        @keyframes gradient_capa {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .capa_container {
+            padding: 250px 20px;
+        }
+
+        img {
+            box-shadow: 20px 20px 50px #390e87ff;
+            border-radius: 20px;
+            width: 100%;
+            height: 8rem;
+        }
+
+        /* media para desktop*/
+        @media (min-width: 600px) {
+
+
+            img {
+                padding: 0 50px;
+                width: 35rem;
+                height: 15rem;
+            }
+        }
+    </style>
+
+    <div class="capa_container">
+        <img src="./assets/images/hbo-logo.svg" alt="Capa da pagina, Logotipo HBOMAX.">
+    </div>
+
+</body>
+
+</html>

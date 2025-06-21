@@ -1,0 +1,57 @@
+:root {
+    --one-color: #020228;
+    --two-color: #ff00e5;
+    --three-color: #9f1ee0;
+    --four-color: #fff;
+
+    --btn-gradient: linear-gradient(75deg,
+            #9b34ef 20%, #490cb0 40%,
+            transparent 50%);
+    
+    --container-bg-gradiend: linear-gradient(-125deg, #461d49, #0f0f10, #282065);
+
+    --barra-gradient: linear-gradient(45deg,
+            #9b34ef 20%, white 30%, #490cb0 100%, transparent 100%);
+
+    --card-color: linear-gradient(0deg, transparent, #3b1e63);
+
+    --nav-bg-color: rgba(0, 0, 0, 0.3);
+    --footer-links-social: #9e86ff;
+    --card-bg-ofert: rgba(191, 77, 191, 0.5);
+    --card-bg-image: rgba(191, 77, 191, 0.5);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+
+}
+
+body {
+    background-color: var(--one-color);
+}
+
+p {
+    font-family: "Quicksand", sans-serif;
+}
+
+
+/* Custom Scroll */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--footer-links-social);
+  border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--two-color);
+  
+}
